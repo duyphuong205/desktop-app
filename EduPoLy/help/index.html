@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .box {
+                margin: 0 auto;
+                width: 800px;
+                height: 700px;
+                background-color: cornsilk;
+                border-radius: 10px;
+                box-shadow: 8px 8px 12px gray;
+            }
+            .container {
+                line-height: 13px;
+                width: 200px;
+                height: 500px;
+                float: left;
+            }
+            .container>ul>li>a {
+                text-decoration: none;
+                color: orange;
+                font-size: large;
+                font-weight: bold;
+            }
+            img {
+                padding-left: 30px;
+                height: 400px;
+            }
+            .container>ul>li>a:hover {
+                text-decoration: underline;
+                color: red;
+            }
+            .container>ul>li{color: blueviolet;}
+            h1 {
+                color: red;
+                text-align: center;
+                text-shadow: 7px 7px 5px gray;
+            }
+            .menucon>li>a {
+                text-decoration: none;
+                color: brown;
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .menucon>li{color: blueviolet;}
+            .menucon>li>a:hover {
+                text-decoration: underline;
+                color: aquamarine;}
+            body{margin: 0px;}
+            .box img{
+                width: 500px;
+                height: 400px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            <h1>HE THONG QUAN LY DAO TAO</h1>
+
+            <img id="img" onclick="iamgechange()" src="logo.png" alt="anhnen"/>
+            <div class="container">
+                <ul>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/1?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%403326a362741f4dd6a0ff841a1f1e2cae">Giao Dien Chinh</a></li><br>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/3?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%405f0d49c06ee04052b9dae7a89fe75e59">Quan ly Nhan Vien</a></li><br>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/3?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%405f0d49c06ee04052b9dae7a89fe75e59">Quan ly Nguoi Hoc</a></li><br>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/3?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%405f0d49c06ee04052b9dae7a89fe75e59">Quan ly Chuyen De</a></li><br>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/3?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%405f0d49c06ee04052b9dae7a89fe75e59">Quan ly Khoa Hoc</a></li><br>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/3?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%405f0d49c06ee04052b9dae7a89fe75e59">Quan ly Hoc Vien</a></li><br>
+                    <li> <a href="https://cms.poly.edu.vn/courses/course-v1:FPOLY+SOF2041+2021_Fall/courseware/a6d69fdeaa50498a8ca5ae65c16898d4/040d974b802a433198b1ce4c263a802c/4?activate_block_id=block-v1%3AFPOLY%2BSOF2041%2B2021_Fall%2Btype%40vertical%2Bblock%40f6448e78f64f4f98bb11e7c314e91a27">Tong Hop Thong Ke</a></li><br>
+                    <ul class="menucon">
+                        <li><a href="#">Bang Diem</a> </li><br>
+                        <li><a href="#">Doanh Thu</a> </li><br>
+                        <li><a href="#">Nguoi Hoc</a> </li><br>
+                        <li><a href="#">Khoa Hoc</a> </li><br>
+                    </ul>
+                    <li> <a href="#">Dang Nhap</a></li><br>
+                    <li> <a href="#">Dang xuat</a></li><br>
+                    <li> <a href="#">Gioi Thieu</a></li><br>
+                    <li> <a href="#">Huong Dan</a></li><br>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var index = 1;
+            iamgechange = function () {
+                var imgs = ["logo.png", "h1.jpg", "h2.png", "h3.jpg", "h4.jpg"];
+                document.getElementById('img').src = imgs[index];
+                index++;
+                if (index == 5) {
+                    index = 0;
+                }
+            }
+            setInterval(iamgechange, 1000);
+        </script>
+
+    </body>
+
+</html>
